@@ -5,9 +5,9 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число");
-int N = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
-for ( int A = 1; A <= N; A++)
+for ( int A = 1; A <= n; A++)
 {
     if (A % 2 == 0)
     
